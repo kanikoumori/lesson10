@@ -31,6 +31,7 @@
   - inputで取得した文字列（str型）の数値をfloatで実数に変換して計算した。
 - タートルグラフィクスを使用してfor文を学習。
   - 同じ処理を繰り返す仕組みを理解した。
+- 授業でtkinterを使用してmessageboxやsimpledialogの使い方を習ったので、BMI計算機を改良しinputとprintをそれぞれsimpledialogとmessageboxに変更。
 ### スクレイピング
 - 今後学習予定
 
