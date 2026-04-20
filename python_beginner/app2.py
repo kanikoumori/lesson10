@@ -6,4 +6,3 @@ h=simpledialog.askfloat("身長","あなたの身長を入力してください"
 w=simpledialog.askfloat("体重","あなたの体重を入力してください")
 bmi=w/(h*h)
 messagebox.showinfo("BMI",f"あなたのBMIは{bmi}です")
-
