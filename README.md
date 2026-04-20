@@ -24,14 +24,17 @@
 ---
 
 ### Python1年生
-- 現在54ページまで学習。
+- 現在92ページまで学習。
 - print文の基礎や、randomとリストを用いたおみくじ機能を作成。
 - リストからランダムに値を取得する処理の流れを理解した。
 - BMI計算機を作成。
-  - inputで取得した文字列（str型）の数値をfloatで実数に変換して計算した。
+  - inputで取得した文字列（str型）の数値をfloat型に変換して計算した。
 - タートルグラフィクスを使用してfor文を学習。
   - 同じ処理を繰り返す仕組みを理解した。
-- 授業でtkinterを使用してmessageboxやsimpledialogの使い方を習ったので、BMI計算機を改良しinputとprintをそれぞれsimpledialogとmessageboxに変更。
+- tkinterを使用したGUIの基礎を学習。
+  - messageboxやsimpledialogを使用し、BMI計算機を改良。
+  - inputとprintをGUIに置き換えた。
+- データ型やリストの基礎を学習。
 ### スクレイピング
 - 今後学習予定
 
