@@ -1,7 +1,9 @@
 import tkinter as tk,PIL.Image as pi,PIL.ImageTk as pit
 from tkinter import filedialog as fd
 def dispPhoto(path):
-    #PIL.Image.openで変数pathに代入されている画像を開きconvert("L")で画像を白黒にしてresizeで縦横32ピクセルに変更しさらにもう一度resizeで縦横300ピクセルに変更する事でモザイク風の加工を再現し変数newImageに代入
+    #PIL.Image.openで変数pathに代入されている画像を開きconvert("L")で画像を白黒にして
+    # resizeで縦横32ピクセルに変更しさらにもう一度resizeで縦横300ピクセルに変更する事で
+    # モザイク風の加工を再現し変数newImageに代入
     newImage=pi.open(path).convert("L").resize((32,32)).resize((300,300),resample=0)
     #newImageに代入した画像をtkinter上で開けるようにPIL.ImageTkで変換しimageDataに代入
     imageData=pit.PhotoImage(newImage)
