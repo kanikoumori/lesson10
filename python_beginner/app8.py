@@ -7,7 +7,7 @@ def imagetodata(filename):
     grayImage=grayImage.resize((8,8),PIL.Image.Resampling.LANCZOS)
     numImage=numpy.asarray(grayImage,dtype=float)
     numImage=16-numpy.floor(17*numImage/256)
-    numImage=numImage.flatt
+    numImage=numImage.flatten()
     predictdigits(numImage)
 
 def predictdigits(data):
