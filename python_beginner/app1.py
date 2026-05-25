@@ -40,5 +40,3 @@ for i in range(5):
     left(72)
 #終了後ウィンドウを閉じずに維持する
 done()
-
-print("hello")
