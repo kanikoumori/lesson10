@@ -1,4 +1,4 @@
-print("hello")
+print("h")
 print("hello")
 print("hello")
 print("hello")
